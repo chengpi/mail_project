@@ -1,0 +1,7 @@
+include ':app', ':moduleCore:encryptEmail',
+        ':modulePublic:customEncrypt',
+        ':modulePublic:customMail',
+        ':modulePublic:customSplash',
+        ':moduleSystem:moduleBase',
+        ':modulePublic:customCommon'
+rootProject.name='tomcat1'
