@@ -24,14 +24,14 @@ abstract class BaseActivity :AppCompatActivity() , AnkoLogger {
     abstract fun getLayoutId():Int //抽象方法
 //    abstract fun getLayoutId(context: Context):Int //抽象方法
 
-    abstract fun getLayoutId(context: Context, name:String, type:String):Int
+//    abstract fun getLayoutId(context: Context, name:String, type:String):Int
 
     //
-    protected fun initListener() {
+    open protected fun initListener() {
 
     }
     //初始化数据
-    protected fun initData() {
+    open protected fun initData() {
 
     }
 }

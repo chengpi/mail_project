@@ -8,6 +8,8 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:scaleX="1.5"
+        android:scaleY="1.5"
         android:id="@+id/icon_welcome_mail"
         android:layout_marginTop="150dp"
         android:layout_width="wrap_content"
@@ -17,6 +19,9 @@
         />
 
     <TextView
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:id="@+id/text_welcome_mail"
         android:layout_marginTop="350dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,3 +32,4 @@
         android:lineSpacingExtra="3dp"
         />
 </LinearLayout>
+<!--android:scaleType="centerCrop"-->
