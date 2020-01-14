@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
 import org.jetbrains.anko.AnkoLogger
+import org.jetbrains.anko.startActivity
 
 /*所有Activity的基类*/
 abstract class BaseActivity :AppCompatActivity() , AnkoLogger {
@@ -33,5 +34,10 @@ abstract class BaseActivity :AppCompatActivity() , AnkoLogger {
     //初始化数据
     open protected fun initData() {
 
+    }
+    //开启新的activity并finish当前界面
+    inline fun <reified T:BaseActivity>startActivityAndFinish() {
+        startActivity<T>()
+        finish()
     }
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <tabs>
+        <tab
+            id="@+id/tab_mail"
+            icon="@drawable/ic_mail_normal"
+            title="Mail"
+            activeColor="@color/colorSlateBlue"
+            />
+        <tab
+            id="@+id/tab_friends"
+            icon="@drawable/ic_friends_contact_normal"
+            title="Friends"
+            activeColor="@color/colorSlateBlue"
+            />
+        <tab
+            id="@+id/tab_me"
+            icon="@drawable/ic_me_normal"
+            title="Me"
+            activeColor="@color/colorSlateBlue"
+            />
+    </tabs>
+</PreferenceScreen>

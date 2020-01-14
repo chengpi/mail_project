@@ -12,23 +12,25 @@ import org.jetbrains.anko.startActivity
 //import com.example.customsplash.R
 
 class MySplashActivity : SplashActivity(){
-//    val imageView = findViewById<ImageView>(R.id.icon_welcome_mail)
-//    val textView = findViewById<TextView>(R.id.text_welcome_mail)
-
-    override fun initData() {
-        super.initData()
-//        ViewCompat.animate(imageView).scaleX(1.0f).scaleY(1.0f).setDuration(2000L)
-//        ViewCompat.animate(textView).scaleX(1.0f).scaleY(1.0f).setDuration(2000L)
-
-//        val intent = Intent(this, MainActivity::class.java)
-//        if(isLoaded) {
-//            startActivity(intent)
-//        }
-
-    }
-
+////    val imageView = findViewById<ImageView>(R.id.icon_welcome_mail)
+////    val textView = findViewById<TextView>(R.id.text_welcome_mail)
+//
+////    override fun initData() {
+////        super.initData()
+//////        ViewCompat.animate(imageView).scaleX(1.0f).scaleY(1.0f).setDuration(2000L)
+//////        ViewCompat.animate(textView).scaleX(1.0f).scaleY(1.0f).setDuration(2000L)
+////
+//////        val intent = Intent(this, MainActivity::class.java)
+//////        if(isLoaded) {
+//////            startActivity(intent)
+//////        }
+////
+////    }
+//
     override fun onAnimationEnd(view: View?) {
         super.onAnimationEnd(view)
-        startActivity<MainActivity>()
+//        startActivity<MainActivity>()
+//        finish()
+        startActivityAndFinish<MainActivity>()
     }
 }

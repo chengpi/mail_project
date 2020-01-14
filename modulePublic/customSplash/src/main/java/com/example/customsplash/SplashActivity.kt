@@ -9,7 +9,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.ViewPropertyAnimatorListener
 import com.example.customsplash.R
 import com.example.modulebase.BaseActivity
+import com.example.modulebase.BaseApplication
 import kotlinx.android.synthetic.main.activity_splash.*
+import org.jetbrains.anko.startActivity
 
 open class SplashActivity() :BaseActivity(),ViewPropertyAnimatorListener{
 //    var isLoaded = false
@@ -21,15 +23,16 @@ open class SplashActivity() :BaseActivity(),ViewPropertyAnimatorListener{
 
     override fun initData() {
 //        super.initData()
-        ViewCompat.animate(icon_welcome_mail).scaleX(1.0f).scaleY(1.0f).setDuration(2000L).setListener(this)
+        ViewCompat.animate(icon_welcome_mail).scaleX(1.0f).scaleY(1.0f).setDuration(3000L).setListener(this)
 //        ViewCompat.animate(icon_welcome_mail).scaleY(1.0f)
-        ViewCompat.animate(text_welcome_mail).scaleX(1.0f).scaleY(1.0f).setDuration(2000L)
+        ViewCompat.animate(text_welcome_mail).scaleX(1.0f).scaleY(1.0f).setDuration(3000L)
 //        ViewCompat.animate(text_welcome_mail).scaleY(1.0f)
 //        isLoaded = true
 
     }
 
     override fun onAnimationEnd(view: View?) {
+//        BaseApplication.getAppContext()?.getResources()?.getString(R.string.app_name)
     }
 
     override fun onAnimationCancel(view: View?) {
