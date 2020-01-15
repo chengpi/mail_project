@@ -22,3 +22,4 @@
         app:bb_activeTabColor="@color/colorSlateBlue"
         app:bb_tabXmlResource="@xml/bottom_bar_tabs" />
 </LinearLayout>
+<!--android:layout_alignParentBottom="true"-->
