@@ -40,6 +40,8 @@
             android:background="@drawable/ripple_background"
             android:scaleType="center"
             android:src="@drawable/search"
+            android:clickable="true"
+            android:focusable="true"
             tools:ignore="ContentDescription,RtlHardcoded" />
 
         <ImageView
@@ -52,8 +54,12 @@
             android:background="@drawable/ripple_background"
             android:scaleType="center"
             android:src="@drawable/add_more"
+            android:clickable="true"
+            android:focusable="true"
             tools:ignore="ContentDescription,RtlHardcoded" />
     </RelativeLayout>
 
 </android.widget.Toolbar>
 <!--android:layout_toLeftOf="@id/add_more"-->
+<!--android:background="@drawable/ripple_background"-->
+<!--android:background="?android:attr/selectableItemBackground"-->

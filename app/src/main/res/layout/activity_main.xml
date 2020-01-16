@@ -13,13 +13,21 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"/>
-    <com.roughike.bottombar.BottomBar
+<!--    <com.roughike.bottombar.BottomBar-->
+<!--        android:id="@+id/bottomBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@color/colorWhite"-->
+<!--        app:bb_activeTabColor="@color/colorSlateBlue"-->
+<!--        app:bb_tabXmlResource="@xml/bottom_bar_tabs" />-->
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
         android:background="@color/colorWhite"
-        app:bb_activeTabColor="@color/colorSlateBlue"
-        app:bb_tabXmlResource="@xml/bottom_bar_tabs" />
+        android:layout_gravity="bottom">
+
+    </com.ashokvarma.bottomnavigation.BottomNavigationBar>
 </LinearLayout>
 <!--android:layout_alignParentBottom="true"-->

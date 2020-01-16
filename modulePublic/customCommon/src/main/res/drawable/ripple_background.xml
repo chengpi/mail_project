@@ -27,7 +27,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:state_pressed="true"
-        android:drawable="@color/colorMoreLightGray"/>
+        android:drawable="@color/color_BEBEBE"/>
     <item
         android:state_pressed="false"
         android:drawable="@android:color/transparent" />

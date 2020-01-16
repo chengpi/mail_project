@@ -6,19 +6,19 @@
             id="@+id/tab_mail"
             icon="@drawable/ic_mail_normal"
             title="Mail"
-            activeColor="@color/colorSlateBlue"
+            activeColor="@color/color_6A5ACD"
             />
         <tab
             id="@+id/tab_friends"
             icon="@drawable/ic_friends_contact_normal"
             title="Friends"
-            activeColor="@color/colorSlateBlue"
+            activeColor="@color/color_6A5ACD"
             />
         <tab
             id="@+id/tab_me"
             icon="@drawable/ic_me_normal"
             title="Me"
-            activeColor="@color/colorSlateBlue"
+            activeColor="@color/color_6A5ACD"
             />
     </tabs>
 </PreferenceScreen>
