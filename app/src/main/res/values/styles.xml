@@ -8,10 +8,14 @@
 <!--        <item name="colorAccent">@color/colorAccent</item>-->
         <item name="android:navigationBarColor">@color/colorWhite</item>
 <!--        <item name="android:windowLightNavigationBar">true</item>-->
+<!--        <item name="selectableItemBackground">@color/colorPrimary</item>-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 <!--    <style name="AppTheme.FullScreen">-->
 <!--        <item name="windowNoTitle">true</item>-->
 <!--        <item name="android:windowFullscreen">true</item>-->
 <!--    </style>-->
+
 
 </resources>

@@ -11,5 +11,10 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
     </style>
+<!--    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">-->
+<!--&lt;!&ndash;        <item name="actionMenuTextColor">@android:color/white</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:background">@drawable/ripple_background</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="selectableItemBackground">@color/colorPrimary</item>&ndash;&gt;-->
+<!--    </style>-->
 
 </resources>

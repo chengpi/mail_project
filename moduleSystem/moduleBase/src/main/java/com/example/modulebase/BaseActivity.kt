@@ -23,8 +23,9 @@ abstract class BaseActivity :AppCompatActivity() , AnkoLogger {
         setStatusBarFontColor(this)//要在setContentView函数之前执行
         setContentView(getLayoutId())
 //        setContentView(getLayoutId(this,"icon_welcome_mail","layout"))
-        initListener()
+
         initData()
+        initListener()
     }
 //    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {//方法重载错误
 //        super.onCreate(savedInstanceState, persistentState)
