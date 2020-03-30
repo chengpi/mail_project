@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewPropertyAnimator
 import androidx.core.view.ViewCompat
 import androidx.core.view.ViewPropertyAnimatorListener
+import com.example.customcommon.util.AppUtils
 import com.example.customsplash.R
 import com.example.modulebase.BaseActivity
 import com.example.modulebase.BaseApplication
@@ -23,6 +24,7 @@ open class SplashActivity() :BaseActivity(),ViewPropertyAnimatorListener{
 
     override fun initData() {
 //        super.initData()
+        AppUtils.closeAndroidPDialog(BuildConfig.APPLICATION_ID)
         ViewCompat.animate(icon_welcome_mail).scaleX(1.0f).scaleY(1.0f).setDuration(3000L).setListener(this)
 //        ViewCompat.animate(icon_welcome_mail).scaleY(1.0f)
         ViewCompat.animate(text_welcome_mail).scaleX(1.0f).scaleY(1.0f).setDuration(3000L)

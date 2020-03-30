@@ -1,10 +1,8 @@
 package com.example.customcommon.util
 
-import com.ashokvarma.bottomnavigation.BadgeItem
 import com.ashokvarma.bottomnavigation.BottomNavigationBar
 import com.ashokvarma.bottomnavigation.BottomNavigationItem
 import com.example.customcommon.R
-
 
 interface BottomBarManager {
     val bottomBar:BottomNavigationBar
@@ -13,8 +11,6 @@ interface BottomBarManager {
         bottomBar.setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC)
         bottomBar.setBarBackgroundColor(R.color.colorWhite) //换成你的背景色即可
         bottomBar.setInActiveColor(R.color.color_696969)
-
-//        val badge= BadgeItem()
 
         bottomBar.addItem(BottomNavigationItem(R.drawable.ic_mail_normal, "Mail"))
             .setActiveColor(R.color.color_6A5ACD)

@@ -42,4 +42,5 @@ abstract class BaseFragment : Fragment(),AnkoLogger {
     protected fun initData() {
 
     }
+
 }

@@ -3,5 +3,6 @@ include ':app', ':moduleCore:encryptEmail',
         ':modulePublic:customMail',
         ':modulePublic:customSplash',
         ':moduleSystem:moduleBase',
-        ':modulePublic:customCommon'
+        ':modulePublic:customCommon',
+        ':moduleCore:encryptAccount'
 rootProject.name='tomcat1'
