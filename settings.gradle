@@ -5,4 +5,4 @@ include ':app', ':moduleCore:encryptEmail',
         ':moduleSystem:moduleBase',
         ':modulePublic:customCommon',
         ':moduleCore:encryptAccount'
-rootProject.name='tomcat1'
+rootProject.name='红会堂医健'

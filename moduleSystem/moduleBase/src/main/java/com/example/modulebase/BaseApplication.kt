@@ -2,6 +2,7 @@ package com.example.modulebase
 
 import android.app.Application
 import android.content.Context
+import kotlin.properties.Delegates
 
 
 abstract class BaseApplication:Application() {
@@ -19,6 +20,7 @@ abstract class BaseApplication:Application() {
      * 获取系统上下文：用于ToastUtil类
      */
     companion object {
+        var instance: BaseApplication by Delegates.notNull()
         private var mAppContext: Context? = null
         fun getAppContext(): Context? {
             return mAppContext

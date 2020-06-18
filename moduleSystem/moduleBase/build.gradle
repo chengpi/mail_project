@@ -27,7 +27,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+    }
 }
 
 dependencies {
@@ -40,4 +42,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     api 'org.jetbrains.anko:anko:0.10.8'
+    implementation 'org.web3j:core:4.1.0-android'
+    implementation 'org.bitcoinj:bitcoinj-core:0.14.7'
 }

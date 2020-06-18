@@ -23,41 +23,41 @@
         android:layout_marginEnd="20dp"
         android:layout_gravity="left"
         android:textSize="18dp"
-        android:text="Email"
+        android:text=""
         />
-    <RelativeLayout
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        >
-        <ImageView
-            android:id="@+id/search"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:layout_toLeftOf="@+id/add_more"
-            android:background="@drawable/ripple_background"
-            android:scaleType="center"
-            android:src="@drawable/search"
-            android:clickable="true"
-            android:focusable="true"
-            tools:ignore="ContentDescription,RtlHardcoded" />
+<!--    <RelativeLayout-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="right"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:id="@+id/search"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:paddingStart="15dp"-->
+<!--            android:paddingEnd="15dp"-->
+<!--            android:layout_toLeftOf="@+id/add_more"-->
+<!--            android:background="@drawable/ripple_background"-->
+<!--            android:scaleType="center"-->
+<!--            android:src="@drawable/search"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            tools:ignore="ContentDescription,RtlHardcoded" />-->
 
-        <ImageView
-            android:id="@+id/add_more"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:layout_alignParentEnd="true"
-            android:background="@drawable/ripple_background"
-            android:scaleType="center"
-            android:src="@drawable/add_more"
-            android:clickable="true"
-            android:focusable="true"
-            tools:ignore="ContentDescription,RtlHardcoded" />
-    </RelativeLayout>
+<!--        <ImageView-->
+<!--            android:id="@+id/add_more"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:paddingStart="15dp"-->
+<!--            android:paddingEnd="15dp"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:background="@drawable/ripple_background"-->
+<!--            android:scaleType="center"-->
+<!--            android:src="@drawable/add_more"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            tools:ignore="ContentDescription,RtlHardcoded" />-->
+<!--    </RelativeLayout>-->
 
 </androidx.appcompat.widget.Toolbar>
 <!--android:layout_toLeftOf="@id/add_more"-->

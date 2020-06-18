@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'//apply plugin: 'realm-android'之前要先加这行
+apply plugin: 'realm-android'
 android {
 //    compileSdkVersion 29
     compileSdkVersion rootProject.ext.compileSdkVersion
